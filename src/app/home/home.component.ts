@@ -12,6 +12,7 @@ import { Oferta } from '../shared/oferta.model';
 export class HomeComponent implements OnInit {
 
   public ofertas: Oferta[]
+  //
 
   constructor(private ofertaService: OfertaService) { }
 
